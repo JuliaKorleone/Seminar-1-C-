@@ -11,3 +11,23 @@
             {
                 Console.WriteLine("Первое число меньше второго");
             }
+
+Console.WriteLine("Введите первое число: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите второе число: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите третье число: ");
+            int c = Convert.ToInt32(Console.ReadLine());
+         
+    if (a > b && a > c)
+    {
+        Console.WriteLine("Первое число является максимальным ");
+    }
+    else if (a > b && a < c)
+    {
+        Console.WriteLine("Третье число является максимальным ");
+    }
+    else
+    {
+        Console.WriteLine("Второе число является максимальным ");
+    }
